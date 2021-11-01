@@ -1,3 +1,7 @@
+# Simple React Drum Machine App
+
+This project is a simple drum machine app created with React and TailwindCSS.  It is inspired by the Wes Bos drum machine in his Javascript 30 exercise.  Emjoy!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
