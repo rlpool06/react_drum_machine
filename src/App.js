@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import DrumMachine from './components/DrumMachine';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen bg-blue-300">
+      <div className="flex justify-center pt-10">
+        <h1 className="uppercase font-bold text-4xl">Drum Machine 🥁</h1>
+      </div>
+      <DrumMachine />
     </div>
   );
 }
